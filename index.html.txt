@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Business - Produtos Novos e Usados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MD Business</h1>
+        <p>Produtos Novos e Usados</p>
+    </header>
+
+    <section class="produtos">
+        <!-- Produto 1 -->
+        <div class="produto">
+            <img src="produtos/produto1.jpg" alt="Produto 1">
+            <h2>Produto 1</h2>
+            <p>Descrição do Produto 1. Preço: R$ 100,00</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="produto">
+            <img src="produtos/produto2.jpg" alt="Produto 2">
+            <h2>Produto 2</h2>
+            <p>Descrição do Produto 2. Preço: R$ 150,00</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 MD Business. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

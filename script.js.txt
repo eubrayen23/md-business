@@ -1,0 +1,11 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleciona todos os botões "Comprar"
+    const botoes = document.querySelectorAll('.produto button');
+
+    // Adiciona um evento de clique a cada botão
+    botoes.forEach(botao => {
+        botao.addEventListener('click', function() {
+            alert('Produto adicionado ao carrinho!');
+        });
+    });
+});
